@@ -132,20 +132,20 @@ squarerootofNumber = num => {
 
 }
 
-functionname = () = >{
+// functionname = () = >{
 
 
-}  // When no params 
+// }  // When no params 
 
-functionname = (param1, param2, pafram2) = >{
-
-
-}  //  when Multiple params
-
-functionname = param1 = >{
+// functionname = (param1, param2, pafram2) = >{
 
 
-} // when you have single param
+// }  //  when Multiple params
+
+// functionname = param1 = >{
+
+
+// } // when you have single param
 
 
 function squarerootofNumber(num){
