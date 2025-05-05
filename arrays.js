@@ -274,3 +274,27 @@ console.log(revstr)
 // // for( let elemnt of  jobtitles){
     
 // // } // Arrays 
+
+
+
+
+ //5 different buttons 
+ 
+//  1 button
+//  await page.locator("locator").click()
+ 
+//  ============================
+ 
+//  elements = [locatr1, locator2, locator3 , locator4, locator5]
+ 
+ 
+//  for(let ele of elements ){
+  
+//   await page.locator(ele).click()
+//  }
+
+// slice 
+// splice 
+// map 
+// filter 
+// reduce 
