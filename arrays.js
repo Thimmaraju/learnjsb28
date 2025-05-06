@@ -168,7 +168,6 @@ arr10.forEach(element => {
 
 
 
-
 arr11 = ["wake up", "read", "work", "sleep"]
 
 
@@ -298,3 +297,48 @@ console.log(revstr)
 // map 
 // filter 
 // reduce 
+
+
+// reduce()
+//Executes a reducer function on each element of the array, resulting in a single output value.
+const num1 = [1, 2, 3, 4];
+const sum = num1.reduce((acc, curr) => acc + curr, 0);
+console.log(sum); // 10
+
+
+ //(acc, curr) => acc + curr  //function without anonymous function 
+
+
+
+//Map
+// let num = [1, 2, 3, 4, 5];
+
+// let result = num.map(num => num * 3);
+
+// console.log(result); 
+
+
+// //filter
+// let num = [1, 2, 3, 4, 5, 4];
+
+// let result = num.filter(num => num==4);
+
+// console.log(result); 
+
+
+arr = ["sai", "raju", "sai", "sai", "raju" , "Lalitha"]
+
+let result = arr.filter(ele => ele === "Lalitha" || ele === "raju");
+
+console.log(result)
+
+// 1 1 0 
+
+// 0 1 0 
+
+// 1 0 0 
+
+// 0 0 0 
+
+// ele = "Sai"
+// ele = "Raju"
