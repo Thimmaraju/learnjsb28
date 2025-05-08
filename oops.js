@@ -259,3 +259,5 @@ console.log(ob2.x)
 //  What is differece between JS and TS 
 
 //  JS == TS
+
+//======================================================================
