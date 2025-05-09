@@ -166,32 +166,37 @@
 //===========================================================================
 
 
-// Promise.all()
+// Promise.all() - Returns a single Promise from a list of promises When all promises fulfill
 
-// Promise.race()
+// Promise.race() - Returns a single Promise from a list of promises When the faster promise settles
 
-// Promise.any()
+// Promise.any() - Returns a single Promise from a list of promises When any promise fulfills
 
-// Promise.allSettled()
+// Promise.allSettled() - Returns a single Promise from a list of promises When all promises settle
+
+// resolved 
+
+// rejected 
 
 
-// const p1 = Promise.resolve('Like If you understood callbacks');
-// //const p2 = Promise.reject('Rejected');
-// const p3 = 100;
-// const p4 = new Promise((resolve, reject) => {
-//     setTimeout(resolve, 3000, 'Subscribe for more updates');
-// });
+ const p1 = Promise.resolve('Like If you understood callbacks');
+ //const p2 = Promise.reject('Rejected');
+ const p3 = 100;
+ const p4 = new Promise((resolve, reject) => {
+     setTimeout(resolve, 500, 'Subscribe for more updates');
+ });
 
-// const p5 = new Promise((resolve, reject) => {
-//   setTimeout(resolve, 1000, 'Subscribe for less updates');
-// });
+ const p5 = new Promise((resolve, reject) => {
+   setTimeout(resolve, 1000, 'Subscribe for less updates');
+ });
 
 
 //to loop the promise 
-//Promise.all([ p1, p3 ,p4, p5]).then((values) => console.log(values)); // resolved values 
+//Promise.all([ p1, p2, p3 ,p4, p5]).then((values) => console.log(values)); // resolved values 
 //Promise.race([ p4, p5 ]).then((value) => console.log(value));
-// Promise.allSettled([ p1, p2, p3, p4 ]).then((values) => console.log(values));
+ //Promise.allSettled([ p1, p2, p3, p4, p5 ]).then((values) => console.log(values));
 //Promise.any([ p1, p4, p5 ]).then((values) => console.log(values));
 
+//prompt 
 
 
